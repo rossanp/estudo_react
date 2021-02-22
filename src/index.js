@@ -6,5 +6,5 @@ ReactDOM.render(
   <Header>
     
   </Header>,
-  document.getElementById('root')
+  document.getElementById('header')
 );
