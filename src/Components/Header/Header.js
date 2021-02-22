@@ -1,26 +1,18 @@
 import React from "react"
 /* import Styled from "styled-components" */
+import Logo from "./Logo"
+import Menu from "./Menu"
 
-/* const logo = <div></div>
-const menu = (
-    <div>
-
-    </div>
-) */
 
 export default class Header extends React.Component{
     render(){
         return(
             <div>
                 <div>
-                    <p>LOGO</p>
+                    <Logo />
                 </div>
                 <div>
-                <ul>
-                    <li>Home</li>
-                    <li>Cardápio</li>
-                    <li>Sobre</li>
-                </ul>
+                    <Menu />
                 </div>
             </div>
         )
